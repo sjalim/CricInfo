@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="NE6-vj-vBX" customClass="ScoreCardTableHeaderView" customModule="CricInfo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="511" height="167"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="03e-v9-RzV">
+                    <rect key="frame" x="0.0" y="59" width="511" height="74"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Socre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="paC-J7-gB1" customClass="ScoreCardTableHeaderView" customModule="CricInfo" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="20.333333333333325" width="83.666666666666671" height="33.666666666666657"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="30"/>
+                            <color key="textColor" name="secondaryTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="primaryHeaderColor"/>
+                    <constraints>
+                        <constraint firstItem="paC-J7-gB1" firstAttribute="leading" secondItem="03e-v9-RzV" secondAttribute="leading" id="Cpb-de-xLI"/>
+                        <constraint firstItem="paC-J7-gB1" firstAttribute="centerY" secondItem="03e-v9-RzV" secondAttribute="centerY" id="bQY-Qf-73I"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="hCT-Gd-jvt"/>
+            <color key="backgroundColor" name="primaryHeaderColor"/>
+            <constraints>
+                <constraint firstItem="hCT-Gd-jvt" firstAttribute="bottom" secondItem="03e-v9-RzV" secondAttribute="bottom" id="SQq-k2-lcQ"/>
+                <constraint firstItem="hCT-Gd-jvt" firstAttribute="trailing" secondItem="03e-v9-RzV" secondAttribute="trailing" id="Wz9-al-W7t"/>
+                <constraint firstItem="03e-v9-RzV" firstAttribute="top" secondItem="hCT-Gd-jvt" secondAttribute="top" id="cLW-M5-cpm"/>
+                <constraint firstItem="03e-v9-RzV" firstAttribute="leading" secondItem="hCT-Gd-jvt" secondAttribute="leading" id="woR-WQ-uEj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="name" destination="paC-J7-gB1" id="zxv-wx-U3N"/>
+            </connections>
+            <point key="canvasLocation" x="321.37404580152668" y="-282.04225352112678"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="primaryHeaderColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondaryTextColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

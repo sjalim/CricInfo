@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bPU-Np-MrH">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CricInfo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aig-Ih-E8V">
+                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="checkBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Cf-Vb-ZLu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Aig-Ih-E8V" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Vyv-Fz-3Jp"/>
+                            <constraint firstItem="Aig-Ih-E8V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bDx-wl-COV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-491" y="-247"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ey1-5u-WQ6">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabBarController" id="bPU-Np-MrH" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Fl2-J7-Lkt">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" name="headerColor"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Nfc-Wt-A6u" kind="relationship" relationship="viewControllers" id="2U5-FS-WqN"/>
+                        <segue destination="hTo-nn-9lF" kind="relationship" relationship="viewControllers" id="u7M-18-anu"/>
+                        <segue destination="QQr-bj-Vwa" kind="relationship" relationship="viewControllers" id="B95-ty-X2B"/>
+                        <segue destination="Hcr-C5-LPg" kind="relationship" relationship="viewControllers" id="eW2-Un-co6"/>
+                        <segue destination="pFS-lh-Pzg" kind="relationship" relationship="viewControllers" id="u36-Mc-0H0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LRc-kV-0IG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="405" y="-247"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="Dy2-e5-eEi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="Nfc-Wt-A6u" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="BuW-fQ-eVX"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="11r-yl-xQn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="27" y="247"/>
+        </scene>
+        <!--Players-->
+        <scene sceneID="OD8-mX-1Bc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Players" id="hTo-nn-9lF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Zuh-ut-dgE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9wm-zj-8pz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="216" y="247"/>
+        </scene>
+        <!--Matches-->
+        <scene sceneID="yHE-Qm-z1N">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Matches" id="QQr-bj-Vwa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="j4g-bG-z2g"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dab-Cc-noK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="403" y="247"/>
+        </scene>
+        <!--Rank-->
+        <scene sceneID="J0q-u2-ZJk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Rank" id="Hcr-C5-LPg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="SRm-HQ-Npa"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nR7-6h-Uer" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="618" y="247"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="7wc-hC-cVD">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" id="pFS-lh-Pzg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="TPX-gF-h0P"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0DG-6D-ofJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="802" y="247"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="headerColor">
+            <color red="0.0" green="0.25900000333786011" blue="0.3529999852180481" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

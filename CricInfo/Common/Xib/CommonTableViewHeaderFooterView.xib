@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CommonTableViewHeaderFooterView" customModule="CricInfo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="428" height="209"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVa-Mi-iQH">
+                    <rect key="frame" x="0.0" y="59" width="428" height="116"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Za-US-Mvp">
+                            <rect key="frame" x="10.000000000000004" y="48" width="47.333333333333343" height="20.333333333333329"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
+                            <color key="textColor" name="secondaryTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" name="primaryWhite"/>
+                    <constraints>
+                        <constraint firstItem="4Za-US-Mvp" firstAttribute="leading" secondItem="YVa-Mi-iQH" secondAttribute="leading" constant="10" id="wnI-NZ-vZY"/>
+                        <constraint firstItem="4Za-US-Mvp" firstAttribute="centerY" secondItem="YVa-Mi-iQH" secondAttribute="centerY" id="yQY-ZQ-1OE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="YVa-Mi-iQH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="FMg-5M-YHz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="YVa-Mi-iQH" secondAttribute="bottom" id="QGL-Lb-I2p"/>
+                <constraint firstItem="YVa-Mi-iQH" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="qPL-I8-Rmo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="YVa-Mi-iQH" secondAttribute="trailing" id="reY-7l-eJD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="headerTextLabel" destination="4Za-US-Mvp" id="C0k-Mg-dNm"/>
+            </connections>
+            <point key="canvasLocation" x="-80.916030534351137" y="-218.66197183098592"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="primaryWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondaryTextColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

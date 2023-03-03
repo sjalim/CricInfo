@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlayerDetailBattingTableViewCell" rowHeight="189" id="KGk-i7-Jjw" customClass="PlayerDetailBattingTableViewCell" customModule="CricInfo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="474" height="189"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="474" height="189"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hjG-oD-HyS">
+                        <rect key="frame" x="0.0" y="0.0" width="474" height="220"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="League" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8TJ-Zv-3Lg">
+                                <rect key="frame" x="20" y="10" width="434" height="19"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <color key="textColor" name="secondaryTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DtJ-DE-i4l">
+                                <rect key="frame" x="20" y="39" width="434" height="40.666666666666657"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="31k-fl-Yhe">
+                                        <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Matc" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAp-6e-IRa">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Matches" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52N-IT-aGE">
+                                                <rect key="frame" x="0.0" y="20.333333333333336" width="93.666666666666671" height="20.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="lae-eP-0ul">
+                                        <rect key="frame" x="113.66666666666666" y="0.0" width="93.333333333333343" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Innings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6NH-5o-zEY">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.333333333333329" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Innings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sk0-Nz-Mtv">
+                                                <rect key="frame" x="0.0" y="20.333333333333336" width="93.333333333333329" height="20.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gPI-NB-Era">
+                                        <rect key="frame" x="226.99999999999997" y="0.0" width="93.666666666666657" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Runs" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCc-Fs-sxy">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Runs Scored" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QdG-WO-ulQ">
+                                                <rect key="frame" x="0.0" y="20.333333333333336" width="93.666666666666671" height="20.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hdQ-ny-AMy">
+                                        <rect key="frame" x="340.66666666666669" y="0.0" width="93.333333333333314" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6m-Ec-Pu3">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.333333333333329" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not outs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYJ-Ne-kxj">
+                                                <rect key="frame" x="0.0" y="20.333333333333336" width="93.333333333333329" height="20.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FGc-Ms-aBR">
+                                <rect key="frame" x="20" y="130.33333333333334" width="434" height="40.666666666666657"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="mWQ-HF-21l">
+                                        <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="im1-81-ccr">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total fours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WMD-J7-6rQ">
+                                                <rect key="frame" x="0.0" y="20.333333333333314" width="93.666666666666671" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5a9-6t-Iuz">
+                                        <rect key="frame" x="113.66666666666666" y="0.0" width="93.333333333333343" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxO-Is-Zdj">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.333333333333329" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total sixes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tGb-TO-qul">
+                                                <rect key="frame" x="0.0" y="20.333333333333314" width="93.333333333333329" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Meq-US-QDx">
+                                        <rect key="frame" x="226.99999999999997" y="0.0" width="93.666666666666657" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qd3-ZB-rVe">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hundreds " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCX-3t-Zhf">
+                                                <rect key="frame" x="0.0" y="20.333333333333314" width="93.666666666666671" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UBm-sB-RGK">
+                                        <rect key="frame" x="340.66666666666669" y="0.0" width="93.333333333333314" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnB-if-euM">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.333333333333329" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fifties" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHf-WL-sf3">
+                                                <rect key="frame" x="0.0" y="20.333333333333314" width="93.333333333333329" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ti8-W6-AAK">
+                                <rect key="frame" x="20" y="84.666666666666671" width="434" height="40.666666666666671"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="y3A-g0-n7D">
+                                        <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gy8-UD-yCU">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max inn scr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAL-B4-ozc">
+                                                <rect key="frame" x="0.0" y="20.333333333333329" width="93.666666666666671" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="alE-v1-hmZ">
+                                        <rect key="frame" x="113.66666666666666" y="0.0" width="93.333333333333343" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMp-7b-hE7">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.333333333333329" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strike rate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pL-wb-jXp">
+                                                <rect key="frame" x="0.0" y="20.333333333333329" width="93.333333333333329" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hjO-ng-w2l">
+                                        <rect key="frame" x="226.99999999999997" y="0.0" width="93.666666666666657" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Huy-Jc-iIx">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balls faced" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsc-VB-ToN">
+                                                <rect key="frame" x="0.0" y="20.333333333333329" width="93.666666666666671" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ITT-6D-nE7">
+                                        <rect key="frame" x="340.66666666666669" y="0.0" width="93.333333333333314" height="40.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqc-5K-xys">
+                                                <rect key="frame" x="0.0" y="0.0" width="93.333333333333329" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Averges" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbq-f5-fHf">
+                                                <rect key="frame" x="0.0" y="20.333333333333329" width="93.333333333333329" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
+                                                <color key="textColor" name="secondaryTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="primaryWhite"/>
+                        <constraints>
+                            <constraint firstItem="8TJ-Zv-3Lg" firstAttribute="centerX" secondItem="hjG-oD-HyS" secondAttribute="centerX" id="7wU-yj-Avw"/>
+                            <constraint firstItem="FGc-Ms-aBR" firstAttribute="leading" secondItem="hjG-oD-HyS" secondAttribute="leading" constant="20" id="Dgo-TQ-M7h"/>
+                            <constraint firstItem="8TJ-Zv-3Lg" firstAttribute="top" secondItem="hjG-oD-HyS" secondAttribute="top" constant="10" id="M0A-Z0-Wnx"/>
+                            <constraint firstItem="FGc-Ms-aBR" firstAttribute="top" secondItem="ti8-W6-AAK" secondAttribute="bottom" constant="5" id="Q8c-tZ-OeC"/>
+                            <constraint firstItem="8TJ-Zv-3Lg" firstAttribute="leading" secondItem="hjG-oD-HyS" secondAttribute="leading" constant="20" id="RcO-KJ-0vn"/>
+                            <constraint firstAttribute="height" constant="220" id="Ux0-RC-yE0"/>
+                            <constraint firstItem="DtJ-DE-i4l" firstAttribute="top" secondItem="8TJ-Zv-3Lg" secondAttribute="bottom" constant="10" id="VQg-65-O9d"/>
+                            <constraint firstItem="ti8-W6-AAK" firstAttribute="centerX" secondItem="hjG-oD-HyS" secondAttribute="centerX" id="Weh-bn-NoG"/>
+                            <constraint firstItem="FGc-Ms-aBR" firstAttribute="centerX" secondItem="hjG-oD-HyS" secondAttribute="centerX" id="d97-zS-IjQ"/>
+                            <constraint firstItem="DtJ-DE-i4l" firstAttribute="centerX" secondItem="hjG-oD-HyS" secondAttribute="centerX" id="f6v-31-efD"/>
+                            <constraint firstItem="ti8-W6-AAK" firstAttribute="top" secondItem="DtJ-DE-i4l" secondAttribute="bottom" constant="5" id="j3N-Rz-2pw"/>
+                            <constraint firstItem="DtJ-DE-i4l" firstAttribute="leading" secondItem="hjG-oD-HyS" secondAttribute="leading" constant="20" id="sEi-vE-0vr"/>
+                            <constraint firstItem="ti8-W6-AAK" firstAttribute="leading" secondItem="hjG-oD-HyS" secondAttribute="leading" constant="20" id="u1r-v3-qXS"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="primaryWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="hjG-oD-HyS" secondAttribute="trailing" id="IOw-gq-Il5"/>
+                    <constraint firstItem="hjG-oD-HyS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="g6t-5s-WCw"/>
+                    <constraint firstAttribute="bottom" secondItem="hjG-oD-HyS" secondAttribute="bottom" id="vgj-g2-y5m"/>
+                    <constraint firstItem="hjG-oD-HyS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="vwS-vh-776"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="averagesLabel" destination="fqc-5K-xys" id="BHL-dq-U5t"/>
+                <outlet property="ballsFacedLabel" destination="Huy-Jc-iIx" id="8Gq-Je-7TQ"/>
+                <outlet property="fiftiesLabel" destination="fnB-if-euM" id="QRw-NT-24g"/>
+                <outlet property="hundredsLabel" destination="qd3-ZB-rVe" id="Fie-fE-0H2"/>
+                <outlet property="inningsLabel" destination="6NH-5o-zEY" id="sV6-Oj-ljn"/>
+                <outlet property="leagueLabel" destination="8TJ-Zv-3Lg" id="SQ8-iX-Wvl"/>
+                <outlet property="matchesCountLabel" destination="iAp-6e-IRa" id="cYa-Kj-IgJ"/>
+                <outlet property="maxInnScrLabel" destination="gy8-UD-yCU" id="sCA-y1-N7c"/>
+                <outlet property="notOutLabel" destination="V6m-Ec-Pu3" id="2dF-Un-I0M"/>
+                <outlet property="runsLabel" destination="WCc-Fs-sxy" id="zLY-WA-g2h"/>
+                <outlet property="strikeRateLabel" destination="LMp-7b-hE7" id="yx5-NR-Qv3"/>
+                <outlet property="totalFoursLabel" destination="im1-81-ccr" id="wwy-tv-mxE"/>
+                <outlet property="totalSixesLabel" destination="HxO-Is-Zdj" id="ih8-Hl-vg6"/>
+            </connections>
+            <point key="canvasLocation" x="90.07633587786259" y="70.774647887323951"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="primaryWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondaryTextColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

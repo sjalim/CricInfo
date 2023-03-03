@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/bjit/Documents/Final Project/Project/V2/CricInfo/CricInfo/CoreData/PlayerDataEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/bjit/Documents/Final Project/Project/V2/CricInfo/CricInfo/CoreData/PlayerDataEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:CricInfo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
