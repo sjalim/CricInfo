@@ -21,6 +21,9 @@ git clone https://github.com/sjalim/CricInfo.git
 Developing tools: Xcode 14, Postman  
 Designing Tools: Figma, Photoshop, UIKit  
 iOS version: 16.2  
+API: https://www.sportmonks.com/cricket-api/  
+Language: Swift 5  
+
 
 ## Application Screenshot 
 ![CricInfoSS1](https://user-images.githubusercontent.com/40640156/222655596-c21da482-bd53-4cb8-8403-bd6272f49fb0.png)
